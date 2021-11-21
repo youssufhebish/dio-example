@@ -15,6 +15,7 @@ class HomeScreen extends StatelessWidget {
         //أنا بس عملت اسكرينة بيحمل فيها ويعرض عنوان أول مقالة
         //عايزك بقى تفهمي ال dio مشي ازاي وانا مظبطه على ال nullsafety ولو أمكن تعملي نفس المثال ده تاني لوحدك
         // وبعدين جربي ورا عبدالله من أول وجديد وأي حاجة تقف معاكي ابعتيلي
+
         body: Center(
           child: state is! DioSuccess
                 ? const CircularProgressIndicator()
